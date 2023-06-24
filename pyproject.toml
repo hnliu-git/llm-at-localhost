@@ -1,13 +1,16 @@
 [tool.poetry]
-name = "py-template"
+name = "llm_at_localhost"
 version = "0.1.0"
-description = "Template for my Python projects"
+description = "Serve llm locally"
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
-packages = [{include = "py_template"}]
+packages = [{include = "llm_at_localhost"}]
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
+torch = "^2.0.1"
+transformers = "^4.29.2"
+gradio = "^3.35.2"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"

@@ -1,4 +1,4 @@
-from py_template import __version__
+from llm_at_localhost import __version__
 
 
 def test_version():

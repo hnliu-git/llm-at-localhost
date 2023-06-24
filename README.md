@@ -2,7 +2,7 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![Coverage](res/coverage.svg)
 
-# Python Project Template
+# LLM@localhost
 
 This is a template for my Python Project. Poetry is used for dependencies management and building. Pytest is used for testing, flake8 is used as a passive linter and black as an aggressive linter.
 
